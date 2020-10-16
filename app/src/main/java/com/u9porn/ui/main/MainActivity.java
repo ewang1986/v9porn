@@ -115,6 +115,7 @@ public class MainActivity extends MvpActivity<MainView, MainPresenter> implement
         setContentView(R.layout.activity_main);
         NotificationChannelHelper.initChannel(this);
         ButterKnife.bind(this);
+
         firstTagsArray.add(Tags.TAG_SEARCH_PORN_AXGLE_VIDEO);
         firstTagsArray.add(Tags.TAG_MY_DOWNLOAD);
         firstTagsArray.add(Tags.TAG_PRON_9_VIDEO);
